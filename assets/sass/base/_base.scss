@@ -1,0 +1,80 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: "Roboto", Verdana, sans-serif;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 117px;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: #157698;
+}
+
+h2 {
+  font-family: "Poppins", "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 47px;
+  line-height: 70px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #157698;
+}
+
+h3 {
+  position: relative;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: #157698;
+}
+
+h3::after {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 300px;
+  height: 2px;
+  background-color: #710707;
+  transition: width 0.3s linear;
+}
+
+h4 {
+  font-family: "Poppins", "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 4.5%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: white;
+}
+
+object {
+  pointer-events: none;
+}
+
+.social {
+  position: relative;
+}
+
+.social::after {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 300px;
+  height: 2px;
+  background-color: #710707;
+  transition: width 0.3s linear;
+}

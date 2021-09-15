@@ -1,0 +1,174 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: "Roboto", Verdana, sans-serif;
+}
+
+h1 {
+  margin-top: 25px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 90px;
+  line-height: 117px;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: #157698;
+}
+
+h2 {
+  font-family: "Poppins", "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 47px;
+  line-height: 70px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #157698;
+}
+
+h3 {
+  position: relative;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: #758991;
+}
+
+h3::after {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 300px;
+  height: 2px;
+  background-color: #710707;
+  transition: width 0.3s linear;
+}
+
+h4 {
+  font-family: "Poppins", "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 33px;
+  line-height: 4.5%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #666666;
+}
+
+object {
+  pointer-events: none;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s;
+}
+
+a:hover {
+  color: #6abcda;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  background: #646464;
+  width: 35%;
+}
+
+.sidebar > img {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  filter: drop-shadow(16px 16px 10px black);
+  width: 200px;
+}
+
+.sidebar > h2 {
+  margin-top: 10px;
+  margin-bottom: -10px;
+  text-align: center;
+  filter: drop-shadow(16px 16px 10px black);
+}
+
+.sidebar > p {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+}
+
+.ust {
+  color: #157698;
+  text-decoration: none;
+}
+
+.tel > a {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.span-tel {
+  padding-left: 10px;
+}
+
+.mail > a {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.local {
+  display: flex;
+  align-items: center;
+}
+
+.language > h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  filter: drop-shadow(16px 16px 10px black);
+}
+
+.main {
+  padding-left: 50px;
+  background: url();
+}
+
+.social {
+  position: relative;
+}
+
+.social::after {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 300px;
+  height: 2px;
+  background-color: #710707;
+  transition: width 0.3s linear;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: auto;
+  position: relative;
+}
